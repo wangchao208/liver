@@ -4,7 +4,7 @@ import streamlit as st
 import joblib
 
 # 读取训练集数据
-train_data = pd.read_csv('训练集.xls')
+train_data = pd.read_csv('训练集.cvs')
 
 # 分离输入特征和目标变量
 X = train_data[['Age', 'T',
